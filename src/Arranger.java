@@ -23,7 +23,7 @@ public class Arranger {
                     if (!file.isDirectory()) {
                         String fileName = file.getName();
                         String fileFormat = fileName.substring(fileName.lastIndexOf('.') + 1);
-                        String folderName = folderName(fileFormat);
+                        String folderName = folderName(fileFormat.toLowerCase());
                         Files.createDirectories(Paths.get(root + "\\" + folderName));
                         Files.move(Paths.get(root + "\\" + fileName),
                                 Paths.get(root + "\\" + folderName + "\\" + fileName));
@@ -75,6 +75,7 @@ public class Arranger {
         map.put("bmp", "image");
         map.put("ico", "image");
         map.put("swg", "image");
+        map.put("png", "image");
 
         map.put("doc", "document");
         map.put("docx", "document");
