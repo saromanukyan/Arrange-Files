@@ -76,6 +76,7 @@ public class Arranger {
         map.put("ico", "image");
         map.put("swg", "image");
         map.put("png", "image");
+        map.put("ai", "image");
 
         map.put("doc", "document");
         map.put("docx", "document");
