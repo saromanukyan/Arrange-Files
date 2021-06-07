@@ -67,16 +67,16 @@ public class Arranger {
 
     private String folderName(String fileFormat) {
         Map<String, String> map = new HashMap<>();
-        map.put("jpg", "image");
-        map.put("jpeg", "image");
-        map.put("gif", "image");
-        map.put("tiff", "image");
-        map.put("psd", "image");
-        map.put("bmp", "image");
-        map.put("ico", "image");
-        map.put("swg", "image");
-        map.put("png", "image");
-        map.put("ai", "image");
+        map.put("jpg", "images");
+        map.put("jpeg", "images");
+        map.put("gif", "images");
+        map.put("tiff", "images");
+        map.put("psd", "images");
+        map.put("bmp", "images");
+        map.put("ico", "images");
+        map.put("swg", "images");
+        map.put("png", "images");
+        map.put("ai", "images");
 
         map.put("doc", "document");
         map.put("docx", "document");
